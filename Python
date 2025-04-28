@@ -85,12 +85,10 @@ def Eje10():
 #Eje10()
 def Eje11():
     salario=5500
-    comision = 200
-    AV = int(input("Autos vendidos: "))
-    valor = int(input("Valor del auto: "))
-    plus = comision*AV
-    plus2 = (valor*5)/100
-    plus2T = plus2*AV
-    salarioT = plus+plus2T+salario
-    print("Tu salario es de: ", salarioT)
+    valorA = []
+    Avendidos = int(input("cantidad de autos vendidos"))
+    for i in range(Avendidos)
+        ValorA.append(float(input("Valor de cada auto: ")))
+        
+        print("El salario total es: ",salario+Avendidos*200+(sum(ValorA)*5)/100)
 #Eje11()
